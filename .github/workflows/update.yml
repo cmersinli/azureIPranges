@@ -3,7 +3,7 @@ name: Update Azure Service Tags
 on:
   # Trigger on scheduled events
   schedule:
-    - cron: "0 11 * * 3" # Run every Wednesday at 11:00 UTC
+    - cron: "15 18 * * 3" # Run every Wednesday at 11:00 UTC
 
   # Trigger on manual dispatch
   workflow_dispatch:
